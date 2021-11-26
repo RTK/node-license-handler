@@ -1,0 +1,45 @@
+{
+    "name": "node-license-handler",
+    "version": "0.0.1",
+    "description": "A CLI util to crawl licenses of your project for further procedures (e.g. generate a license page)",
+    "main": "src/public_api.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RTK/node-license-handler.git"
+    },
+    "keywords": [
+        "node",
+        "cli",
+        "licenses",
+        "license",
+        "handler"
+    ],
+    "author": {
+        "name": "Rouven T. Kruse",
+        "email": "mail@rouvenkruse.de",
+        "url": "https://rouvenkruse.de"
+    },
+    "bin": {
+        "node-license-handler": "dist/bin/handler.js"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RTK/node-license-handler/issues"
+    },
+    "homepage": "https://github.com/RTK/node-license-handler#readme",
+    "devDependencies": {
+        "@rtk/prettier-config": "github:RTK/prettier-config",
+        "@types/fs-extra": "^9.0.13",
+        "@types/node": "^16.11.10",
+        "prettier": "^2.5.0",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.2"
+    },
+    "dependencies": {
+        "@rtk/node-ts-cli-toolkit": "^1.0.0",
+        "fs-extra": "^10.0.0"
+    }
+}
